@@ -15,7 +15,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 //VALORANT GAMING LAYER
 
 #define MIRYOKU_LAYER_VAL \
-&kp TAB,           &kp Q,             &kp W,             &kp E,             &kp R,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+&kp TAB,           &kp Q,             &kp W,             &kp E,             &kp R,             &u_to_U_BASE,              U_NA,              U_NA,              U_NA,              U_NA,            \
 &kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 &kp LCTRL,         &kp Z,             &kp X,             &kp C,             U_MT(N4, B),       U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 U_NP,              U_NP,              &kp ESC,         U_LT(U_VTWO, V), &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
