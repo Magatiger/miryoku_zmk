@@ -26,7 +26,7 @@ U_NP,             U_NP,              U_LT(LALT, ESC),   U_LT(U_VTWO, V),   &kp S
 &kp Y,             &kp U,              &kp I,              &kp O,            &kp CAPSLOCK,      U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 &kp H,             &kp J,              &kp K,              &kp L,            &kp N,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 &kp M,             &kp Q ,             &kp Q,              &kp Y,            &kp V,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
-U_NP,              U_NP,               &kp ALT,            &kp LCTRL,        &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
+U_NP,              U_NP,               &kp LALT,            &kp LCTRL,        &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
 
 // Direct custom layer access
 #define MIRYOKU_LAYOUTMAPPING_CORNE(\
