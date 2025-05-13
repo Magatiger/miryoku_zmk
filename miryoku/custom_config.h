@@ -20,8 +20,9 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 &kp LCTRL,        &kp Z,             &kp X,             &kp C,             U_MT(N4, B),       U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 U_NP,             U_NP,              U_LT(LALT, ESC),   U_LT(U_VTWO, V),   &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
   
+//VALORANT GAMING LAYER 2
 
-#define MIRYOKU_LAYER_VTWO \  
+#define MIRYOKU_LAYER_VTWO \
 &kp Y,             &kp U,              &kp I,              &kp O,            &kp CAPSLOCK,      U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 &kp H,             &kp J,              &kp K,              &kp L,            &kp N,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 &kp M,             &kp Q ,             &kp Q,              &kp Y,            &kp V,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
