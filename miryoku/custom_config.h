@@ -15,17 +15,17 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 //VALORANT GAMING LAYER
 
 #define MIRYOKU_LAYER_VAL \
-&kp TAB,           &kp Q,             &kp W,             &kp E,             &kp R,             &u_to_U_BASE,              U_NA,              U_NA,              U_NA,              U_NA,            \
-&kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
-&kp LCTRL,         &kp Z,             &kp X,             &kp C,             U_MT(N4, B),       U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
-U_NP,              U_NP,              &kp ESC,         U_LT(U_VTWO, V), &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
+&kp TAB,          &kp Q,             &kp W,             &kp E,             &kp R,             &u_to_U_BASE,      U_NA,              U_NA,              U_NA,              U_NA,            \
+&kp LSHFT,        &kp A,             &kp S,             &kp D,             &kp F,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+&kp LCTRL,        &kp Z,             &kp X,             &kp C,             U_MT(N4, B),       U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+U_NP,             U_NP,              U_LT(LALT, ESC),   U_LT(U_VTWO, V),   &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
+  
 
-
-#define MIRYOKU_LAYER_VTWO \
-&kp B,             U_NA,              U_NA,              &kp N4,            &kp CAPSLOCK,      U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
-&kp ESC,           &kp N1,            &kp N2,            &kp N3,            &kp G,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
-U_NA,              U_NA,              U_NA,              &kp Y,             &kp V,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
-U_NP,              U_NP,              U_NA,              &kp LCTRL,         &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
+#define MIRYOKU_LAYER_VTWO \  
+&kp Y,             &kp U,              &kp I,              &kp O,            &kp CAPSLOCK,      U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+&kp H,             &kp J,              &kp K,              &kp L,            &kp N,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+&kp M,             &kp Q ,             &kp Q,              &kp Y,            &kp V,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+U_NP,              U_NP,               &kp ALT,            &kp LCTRL,        &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
 
 // Direct custom layer access
 #define MIRYOKU_LAYOUTMAPPING_CORNE(\
