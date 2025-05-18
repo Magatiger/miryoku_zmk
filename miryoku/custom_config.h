@@ -18,7 +18,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 U_LT(TAB,ESC),    &kp Q,             &kp W,             &kp E,             &kp R,             &u_to_U_BASE,      U_NA,              U_NA,              U_NA,              U_NA,            \
 &kp LSHFT,        &kp A,             &kp S,             &kp D,             &kp F,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 &kp LCTRL,        &kp Z,             &kp X,             &kp C,             U_MT(N4, B),       U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
-U_NP,             U_NP,              &kp SPACE,         U_LT(U_VTWO, V),   &kp LALT,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
+U_NP,             U_NP,              U_LT(U_VTWO, SPACE),   &kp V,   &kp LALT,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
   
 //VALORANT GAMING LAYER 2
 
