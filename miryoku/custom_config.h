@@ -15,16 +15,16 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 //VALORANT GAMING LAYER
 
 #define MIRYOKU_LAYER_VAL \
-U_LT(TAB,ESC),    &kp Q,             &kp W,             &kp E,             &kp R,             &u_to_U_BASE,      U_NA,              U_NA,              U_NA,              U_NA,            \
-&kp LSHFT,        &kp A,             &kp S,             &kp D,             &kp F,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
-&kp LCTRL,        &kp Z,             &kp X,             &kp C,             U_MT(N4, B),       U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
-U_NP,             U_NP,              U_LT(U_VTWO, SPACE),   &kp V,   &kp LALT,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
+&kp ESC,          &kp Q,             &kp W,                 &kp E,             &kp R,            &u_to_U_BASE,      U_NA,              U_NA,              U_NA,              U_NA,            \
+&kp LSHFT,        &kp A,             &kp S,                 &kp D,             &kp F,            U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+&kp LCTRL,        &kp Z,             &kp X,                 &kp C,             &kp B,            U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+U_NP,             U_NP,              U_LT(U_VTWO, SPACE),   &kp V,             &kp LALT,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
   
 //VALORANT GAMING LAYER 2
 
 #define MIRYOKU_LAYER_VTWO \
-&kp TILDE,        &kp U,              &kp I,              &kp O,            &kp CAPSLOCK,      U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
-U_LT(ENTER, H),    &kp J,              &kp K,              &kp L,            &kp F11,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+&kp TILDE,         &kp U,              &kp I,              &kp O,            &kp CAPSLOCK,      U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+&kp TAB,           &kp J,              &kp K,              &kp L,            &kp F11,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 &kp F1,            &kp F2,             &kp F3,            &kp F4,            &kp F5,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 U_NP,              U_NP,               &kp LALT,            &kp LCTRL,        &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
 
