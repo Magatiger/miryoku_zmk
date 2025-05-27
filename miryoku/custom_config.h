@@ -12,21 +12,28 @@ U_CUT,             &kp LEFT,          &kp DOWN,          &kp RIGHT,         &kp 
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 
-//VALORANT GAMING LAYER
+//VALORANT GAMING LAYERvf
 
 #define MIRYOKU_LAYER_VAL \
 &kp ESC,          &kp Q,             &kp W,                 &kp E,             &kp R,            &u_to_U_BASE,      U_NA,              U_NA,              U_NA,              U_NA,            \
-&kp LSHFT,        &kp A,             &kp S,                 &kp D,             &kp F,            U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+&kp LSHFT,        &kp A,             &kp S,                 &kp D,             &kp F,            &u_to_U_Mine,              U_NA,              U_NA,              U_NA,              U_NA,            \
 &kp LCTRL,        &kp Z,             &kp X,                 &kp C,             &kp B,            U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 U_NP,             U_NP,              U_LT(U_VTWO, SPACE),   &kp V,             &kp LALT,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
   
 //VALORANT GAMING LAYER 2
 
 #define MIRYOKU_LAYER_VTWO \
-&kp TILDE,         &kp U,              &kp I,              &kp O,            &kp CAPSLOCK,      U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+&kp TILDE,         &kp U,              &kp I,              &kp O,            &kp CAPSLOCK,      U_NA,               U_NA,              U_NA,              U_NA,              U_NA,            \
 &kp TAB,           &kp J,              &kp K,              &kp L,            &kp F11,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 &kp F1,            &kp F2,             &kp F3,            &kp F4,            &kp F5,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 U_NP,              U_NP,               &kp LALT,            &kp LCTRL,        &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
+
+#define MIRYOKU_LAYER_Mine \
+&kp ESC,          &kp Q,             &kp W,                 &kp E,             &kp R,            &u_to_U_BASE,      U_NA,              U_NA,              U_NA,              U_NA,            \
+&kp LSHFT,        &kp A,             &kp S,                 &kp D,             &kp F,            &u_to_U_Mine,              U_NA,              U_NA,              U_NA,              U_NA,            \
+&kp LCTRL,        &kp Z,             &kp X,                 &kp C,             &kp B,            U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+U_NP,             U_NP,              U_LT(U_VTWO, LALT),   &kp V,             &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
+ 
 
 // Direct custom layer access
 #define MIRYOKU_LAYOUTMAPPING_CORNE(\
@@ -54,7 +61,8 @@ U_NP,              U_NP,               &kp LALT,            &kp LCTRL,        &k
     MIRYOKU_X(SYM,    "Sym") \
     MIRYOKU_X(FUN,    "Fun") \
     MIRYOKU_X(VAL,   "Valo1") \
-    MIRYOKU_X(VTWO,   "Valo2")
+    MIRYOKU_X(VTWO,   "Valo2") \
+    MIRYOKU_X(VAL,   "Mine") 
     
     #define MIRYOKU_LAYERMAPPING_VAL MIRYOKU_MAPPING
     #define MIRYOKU_LAYERMAPPING_VTWO MIRYOKU_MAPPING
@@ -71,3 +79,4 @@ U_NP,              U_NP,               &kp LALT,            &kp LCTRL,        &k
     #define U_FUN    9
     #define U_VAL    10
     #define U_VTWO   11
+    #define U_MINE   12
