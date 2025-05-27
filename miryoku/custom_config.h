@@ -28,9 +28,9 @@ U_NP,             U_NP,              U_LT(U_VTWO, SPACE),   &kp V,             &
 &kp F1,            &kp F2,             &kp F3,            &kp F4,            &kp F5,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 U_NP,              U_NP,               &kp LALT,            &kp LCTRL,        &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
 
-#define MIRYOKU_LAYER_Mine \
+#define MIRYOKU_LAYER_MINE \
 &kp ESC,          &kp Q,             &kp W,                 &kp E,             &kp R,            &u_to_U_BASE,      U_NA,              U_NA,              U_NA,              U_NA,            \
-&kp LSHFT,        &kp A,             &kp S,                 &kp D,             &kp F,            &u_to_U_Mine,              U_NA,              U_NA,              U_NA,              U_NA,            \
+&kp LSHFT,        &kp A,             &kp S,                 &kp D,             &kp F,            U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 &kp LCTRL,        &kp Z,             &kp X,                 &kp C,             &kp B,            U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 U_NP,             U_NP,              U_LT(U_VTWO, LALT),   &kp V,             &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
  
@@ -62,7 +62,7 @@ U_NP,             U_NP,              U_LT(U_VTWO, LALT),   &kp V,             &k
     MIRYOKU_X(FUN,    "Fun") \
     MIRYOKU_X(VAL,   "Valo1") \
     MIRYOKU_X(VTWO,   "Valo2") \
-    MIRYOKU_X(VAL,   "Mine") 
+    MIRYOKU_X(MINE,   "Mine") 
     
     #define MIRYOKU_LAYERMAPPING_VAL MIRYOKU_MAPPING
     #define MIRYOKU_LAYERMAPPING_VTWO MIRYOKU_MAPPING
