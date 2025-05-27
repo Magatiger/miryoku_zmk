@@ -28,6 +28,13 @@ U_NP,             U_NP,              U_LT(U_VTWO, SPACE),   &kp V,             &
 &kp F1,            &kp F2,             &kp F3,            &kp F4,            &kp F5,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 U_NP,              U_NP,               &kp LALT,            &kp LCTRL,        &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
 
+#define MIRYOKU_LAYER_MINE \
+&kp ESC,          &kp Q,             &kp W,                 &kp E,             &kp R,            &u_to_U_BASE,      U_NA,              U_NA,              U_NA,              U_NA,            \
+&kp LSHFT,        &kp A,             &kp S,                 &kp D,             &kp F,            U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+&kp LCTRL,        &kp Z,             &kp X,                 &kp C,             &kp B,            U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+U_NP,             U_NP,              U_LT(U_VTWO, LALT),   &kp V,             &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
+ 
+
 // Direct custom layer access
 #define MIRYOKU_LAYOUTMAPPING_CORNE(\
     K00, K01, K02, K03, K04,                         K05, K06, K07, K08, K09, \
@@ -54,7 +61,8 @@ U_NP,              U_NP,               &kp LALT,            &kp LCTRL,        &k
     MIRYOKU_X(SYM,    "Sym") \
     MIRYOKU_X(FUN,    "Fun") \
     MIRYOKU_X(VAL,   "Valo1") \
-    MIRYOKU_X(VTWO,   "Valo2")
+    MIRYOKU_X(VTWO,   "Valo2") \
+    MIRYOKU_X(MINE,   "Mine") 
     
     #define MIRYOKU_LAYERMAPPING_VAL MIRYOKU_MAPPING
     #define MIRYOKU_LAYERMAPPING_VTWO MIRYOKU_MAPPING
@@ -71,3 +79,4 @@ U_NP,              U_NP,               &kp LALT,            &kp LCTRL,        &k
     #define U_FUN    9
     #define U_VAL    10
     #define U_VTWO   11
+    #define U_MINE   12
