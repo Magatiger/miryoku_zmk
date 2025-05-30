@@ -24,7 +24,7 @@ U_NP,             U_NP,              U_LT(U_VTWO, SPACE),   &kp V,             &
 
 #define MIRYOKU_LAYER_VTWO \
 &kp TILDE,         &kp U,              &kp I,              &kp O,            &kp CAPSLOCK,      U_NA,               U_NA,              U_NA,              U_NA,              U_NA,            \
-&kp TAB,           &kp J,              &kp K,              &kp L,            &kp F11,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+&kp TAB,           &kp J,              &kp K,              &kp L,            &kp M,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 &kp F1,            &kp F2,             &kp F3,            &kp F4,            &kp F5,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 U_NP,              U_NP,               &kp LALT,            &kp LCTRL,        &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
 
